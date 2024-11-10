@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for plant in plants %}
+    <p>{{ plant.plant_name }}</p>
+    <p>{{ plant.informations }}</p>
+
+{% endfor %}
+{% endblock content %}
